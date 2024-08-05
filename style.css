@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 60px;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+
+}
+/** box1 **/
+.header-one{
+    height: 50px;
+    width: 110px;
+    
+}
+.logo{
+    background-image: url("./images/a1.jpg");
+    height: 50px;
+    width: 85%;
+    background-size:cover ;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.7px solid white ;
+}
+
+
+/** box2 **/
+.two-f{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 10px;
+}
+.two-s{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: 10;
+    margin-left: 4px;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+
+/** box3 **/
+.header-three{
+    display: flex;
+    background-color: pink;
+    width: 800px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.threee-search{
+    font-size: 1.2rem;
+    background-color: rgb(221, 175, 11);
+    color: black;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three-select{
+    width:50px ;
+text-align: center;
+    border-top-left-radius:6px ;
+    border-bottom-left-radius: 6px;
+    border: none;
+}
+
+.three-input{
+    width: 700px;
+    font-size: 1rem;
+    border: none;
+}
+.header-three:hover{
+    border: 1.7px solid yellow;
+}
+/** box4 **/
+.four-one{
+    font-size: 0.70rem;
+}
+.four-two{
+    font-size: 1.1rem;
+    font-weight: 15px;
+}
+.header-six{
+    display: flex;
+    align-items: center;
+}
+.cart{
+
+    font-size: 0.9rem;
+
+}
+.header-six i{
+ font-size: 30px;
+}
+
+.panel{
+    display: flex;
+    height: 40px;
+    color: white;
+    background-color: #222f3d;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.panel p {
+    display: inline;
+    margin-left: 15px;
+}
+.options{
+   
+    width: 85%;
+  font-size: 1rem;
+}
+.all{
+    margin-left: 0px;
+}
+
+
+.center{
+    background-image: url("./images/71YTsbTxBsL._SX3000_.jpg");
+    height: 500px;
+    background-size: cover;
+}
+.shopping{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+ 
+}
+.box-img{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+  
+    
+}
+.box-content{
+    margin: 5%;
+}
+.box p{
+    color: #007185;
+}
+
+.lab{
+    height: 300px;
+  
+       
+ 
+    width: 95%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+ 
+}
+.box-imgs{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.end{
+    padding: 15px 0px 
+    ;
+    height: 100px;
+    border-top: 1px solid black;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem
+}
+.end-o{
+    
+    text-align: center;
+}
+.end button{
+    background-color: rgb(243, 167, 14);
+    border-radius: 5px;
+    color: solid black;
+    font-weight: 5px;
+    width: 250px;
+    border-radius: 1px solid yellow;
+}
+
+.panel-one{
+    background-color: #37475a;
+    height: 40px;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.panel-two{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul{
+    display: block;
+}
+.panel-two p{
+    margin-top: 10px;
+}
+.panel-three{
+    border: 1px solid;
+    height: 100px;
+    background-color:#222f3d ;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.amglogo{
+   
+    background-image: url("./images/amazon_logo.png");
+    height: 70px;
+    width: 150px;
+    color: wheat;
+    background-size: cover;
+
+
+}
